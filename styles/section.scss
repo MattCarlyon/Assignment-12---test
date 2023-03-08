@@ -19,7 +19,6 @@
 
 .group2 {
     display: flex;
-    flex-direction: column;
     min-height: 700px;
     height: 100%;
     max-width: 1770px;
@@ -36,3 +35,33 @@
     opacity: 0.9;
 }
 
+.sectionleft {
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    max-width: 885px;
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+    margin-top: 56px;
+}
+
+.sectionright {
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    max-width: 885px;
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+    margin-top: 56px;
+}
+
+.blank {
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
+    height: 100%;
+    max-width: 1770px;
+    width: 100%;
+}

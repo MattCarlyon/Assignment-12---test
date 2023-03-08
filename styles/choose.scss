@@ -2,7 +2,7 @@
 
 .choose {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     min-height: 685px;
     height: 100%;
@@ -15,9 +15,30 @@
     flex-direction: column;
     width: 560px;
     height: 400px;
+    margin-left: 50px;
 }
 
 .choose-right {
     display: flex;
     flex-direction: column;
+    max-width: 440px;
+    width: 100%; 
+    justify-self: center;
+
+}
+
+.pic1 {
+    display: flex;
+    justify-self: left;
+    max-width: 350px;
+    width:100%;
+    margin-bottom:10px;
+}
+
+.pic2 {
+    display: flex;
+    justify-self: right;
+    align-self: flex-end;
+    max-width: 350px;
+    width:100%;
 }
