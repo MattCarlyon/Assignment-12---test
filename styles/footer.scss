@@ -1,0 +1,94 @@
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    min-height: 271px;
+    height: 100%;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    max-width: 1121px;
+    width: 100%;
+    height: 271px;
+    border-bottom: 53px;
+    padding-bottom: 50px;
+}
+
+.fa-facebook-f {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+    cursor: pointer;
+}
+
+.fa-twitter {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.fa-linkedin-in {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #5474FD;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.fa-youtube {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.fa-pinterest {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+    margin-left: 5px;
+    cursor: pointer;
+}

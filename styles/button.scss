@@ -1,0 +1,28 @@
+
+.button {
+    justify-content: center;
+    align-items: center;
+    background-color:#5474FD;
+    border: none;
+    color: white;
+    max-width: 228px;
+    width: 100%;
+    min-height: 63px;
+    height: 100%;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #496BFE;
+}
+

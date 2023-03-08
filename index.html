@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test Page</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae6f0c4401.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="header">
-        <div class="title">
+        <div class="title" style="background-image: url(images/header.jpg);">
             <div class="title-text">
                 <div class="logo">
                     <h1>BHROMAON</h1>
                     <h2>Safe Travel Anywhere</h2>
                 </div>
-                <div></div>
+                <form class="search">
+                    <input type="text" name="name" id="name" class="input" placeholder="Search Your Travel Destination" required autofocus>
+                    <button type="submit" class="search-button">Submit<i class="fa fa-search"></i></button>
+                </form>
                 <p class="scroll">Scroll Down</p>
+                <i class="fa-solid fa-chevron-down"></i>
             </div>
         </div>
         <div class="navbar">
-            <h3>BHROMAON</h3>
-            <ul class="navtext">
-                <li><a href="#" class="headertext">WHO WE ARE</a></li>
-                <li><a href="#" class="headertext">WHAT WE DO</a></li>
-                <li><a href="#" class="headertext">TRAVEL WITH US</a></li>
-                <li><a href="#" class="headertext">CONTACT US</a></li>
-            </ul>
+            <div class="navbar1">
+                <h3><a href="#" class="h3">BHROMAON</a></h3>
+                <ul class="navtext">
+                    <li><a href="#" class="headertext">WHO WE ARE</a></li>
+                    <li><a href="#" class="headertext">WHAT WE DO</a></li>
+                    <li><a href="#" class="headertext">TRAVEL WITH US</a></li>
+                    <li><a href="#" class="headertext">CONTACT US</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="choose">
+    <div class="choose" style="background-image: url(images/choose3.jpg);">
         <div class="choose-left">
             <h4>Why Choose Us</h4>
             <div class="choose-text">
@@ -43,39 +50,58 @@
             <button class="button">EXPLORE PLACES</button>
         </div>
         <div class="choose-right"></div>
-
-
+            <img src="images/choose1.jpg" alt="lake house">
+            <img src="images/choose2.jpg" alt="cliff side">
     </div>
     <div class="works">
-        <img src="images/works1.png" alt="search places icon">
-        <img src="images/works2.png" alt="select places icon">
-        <img src="images/works3.png" alt="book and enjoy icon">
+        <div class="works1">
+            <img src="images/works1.png" alt="search places icon" class="worksimg1">
+            <img src="images/works2.png" alt="select places icon" class="worksimg2">
+            <img src="images/works3.png" alt="book and enjoy icon" class="worksimg3">
+        </div>
     </div>
     <div class="section">
-        <div class="group1">
+        <div class="group1" style="background-image: url(images/section.jpg);">
             <div class="group-text">
                 <p class="group-text1">Spain</p>
                 <h4 class="group-text2">GRAND SPAIN MADRID</h4>
                 <p class="group-text3">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account born and I account will give you a complete account of the system</p>
             </div>
-            <button class="button">Book Now</button>
+            <button class="button">Book NOW</button>
         </div>
-        <div class="group2">
+        <div class="group2" style="background-image: url(images/section2.jpg);">
             <div class="group-text">
                 <p class="group-text1">Spain</p>
                 <h4 class="group-text2">GRAND SPAIN MADRID</h4>
                 <p class="group-text3">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account born and I account will give you a complete account of the system</p>
             </div>
-            <button class="button">Book Now</button>
+            <button class="button">BOOK NOW</button>
         </div>
     </div>
-    <div class="testimonial">
-        <
-
+    <div class="testimonial" style="background-image: url(images/test2.jpg);">
+        <h4>What Our Tourist Say</h4>
+        <div class="text-box">
+            <img src="images/test.jpg" alt="admiring the view">
+            <div class="test-text">
+                <h4 class="group-text2">SAM SUMON</h4>
+                <p class="group-text3">But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  
+                    But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account 
+                     born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system</p>
+            </div>
+        </div>
     </div>
     <div class="footer">
-
+        <div class="footer-text">
+            <p class="footer-text1">BHROMAON</p>
+            <p class="footer-text2">Safe Travel Anywhere</p>
+            <div clas="footer-icons">
+                <i class="fa-brands fa-facebook-f"><a href="#"></a></i>
+                <i class="fa-brands fa-twitter"><a href="#"></a></i>
+                <i class="fa-brands fa-linkedin-in"><a href="#"></a></i>
+                <i class="fa-brands fa-youtube"><a href="#"></a></i>
+                <i class="fa-brands fa-pinterest"><a href="#"></a></i>
+            </div>
+        </div>
     </div>
-    
 </body>
 </html>
