@@ -7,13 +7,13 @@ h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 26px;
-    /* identical to box height, or 54% */
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 4.8px;
     text-transform: uppercase;
     color: #FFFFFF;
+   
 }
 
 h2 {
@@ -54,6 +54,21 @@ h4 {
     display: flex;
     align-items: center;
     color: #FFFFFF;
+    margin-bottom: 93px;
+    margin-top: 100px;
+   
+}
+
+.choosetitle {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
 }
 
 .headertext {
@@ -84,6 +99,7 @@ h4 {
     letter-spacing: 2.8px;
     color: #FFFFFF;
     justify-self: center;
+    margin-top: 100px;
 }
 
 .footer-text1 {
@@ -127,6 +143,10 @@ h4 {
     color: #E8E8E8;
 }
 
+.buttonmargin {
+    margin-bottom: 46px;
+}
+
 .group-text1 {
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -137,6 +157,8 @@ h4 {
     align-items: center;
     letter-spacing: 1.5px;
     color: #E8E8E8;
+    margin-top: 49px;
+    margin-left: 32px;
 }
 
 .group-text2 {
@@ -149,6 +171,8 @@ h4 {
     align-items: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: 23px;
+    margin-left: 32px;
 }
 
 .group-text3 {
@@ -160,4 +184,7 @@ h4 {
     display: flex;
     align-items: center;
     color: #E8E8E8;
+    margin-top: 13px;
+    margin-bottom: 46px;
+    margin-left: 32px;
 }

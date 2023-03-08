@@ -1,15 +1,13 @@
 
 .button {
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color:#5474FD;
     border: none;
     color: white;
-    max-width: 228px;
-    width: 100%;
-    min-height: 63px;
-    height: 100%;
-
+    width: 228px;
+    height: 63px;
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 400;
@@ -26,3 +24,10 @@
     background-color: #496BFE;
 }
 
+.buttonsection {
+    margin-left: 32px;
+} 
+
+.buttonchoose {
+    margin-top: 4px;
+}

@@ -1,0 +1,23 @@
+
+
+.choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 685px;
+    height: 100%;
+    max-width: 1770px;
+    width: 100%;
+}
+
+.choose-left{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 400px;
+}
+
+.choose-right {
+    display: flex;
+    flex-direction: column;
+}

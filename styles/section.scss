@@ -25,3 +25,14 @@
     max-width: 1770px;
     width: 100%;
 }
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    width: 543px;
+    height: 374px;    
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
